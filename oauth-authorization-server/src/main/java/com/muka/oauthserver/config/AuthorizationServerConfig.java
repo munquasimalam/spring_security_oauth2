@@ -32,7 +32,6 @@ import java.util.UUID;
 @Configuration(proxyBeanMethods = false)
 public class AuthorizationServerConfig {
 
-
     @Autowired
     private PasswordEncoder passwordEncoder;
 
